@@ -101,11 +101,11 @@ img {
   font-size: 32px;
   font-size: 2rem;  
   margin: 0 5px;
+  color: #fff;
 }
 
 .head-buttons a {
-  /* color: inherit; */
-  color: #fff;
+  color: inherit;
 }
 
 .head-menu-wrap {
