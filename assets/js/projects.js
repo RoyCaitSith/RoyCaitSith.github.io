@@ -12,21 +12,21 @@ let render_projects = (slug) => {
     let projects_obj = [
         {
             image: 'assets/images/MWR_GOES-R_BC.jpg',
-            link: 'https://github.com/RoyCaitSith/GOES-R-bias-correction.git',
-            title: 'All-Sky Bias Correction of GOES-16',
-            doi: 'https://doi.org/10.1175/MWR-D-21-0333.1',
+            link: 'https://doi.org/10.1175/MWR-D-21-0333.1',
+            title: 'All-Sky BC of GOES-16',
+            github: 'https://github.com/RoyCaitSith/GOES-R-bias-correction.git',
             technologies: ['GSI', 'WRF', 'Python'],
             description: "A Bias Correction Scheme with the Symmetric Cloud Proxy Variable and Its Influence on Assimilating All-Sky GOES-16 Brightness Temperatures",
             categories: ['featured', 'all-sky', 'goes', 'infrared']
         },
         {
             image: 'assets/images/AMT_Aeolus.png',
-            link: 'https://github.com/RoyCaitSith/Aeolus-L2B-assimilation.git',
+            link: 'https://doi.org/10.5194/amt-16-2691-2023',
             title: 'Assimilation of Aeolus',
-            doi: 'https://doi.org/10.5194/amt-16-2691-2023',
+            github: 'https://github.com/RoyCaitSith/Aeolus-L2B-assimilation.git',
             technologies: ['GSI', 'WRF', 'Python'],
             description: "The impacts of assimilating Aeolus horizontal line-of-sight winds on numerical predictions of Hurricane Ida (2021) and a mesoscale convective system over the Atlantic Ocean",
-            categories: ['Aeolus']
+            categories: ['aeolus']
         },
     ]
 
@@ -60,7 +60,7 @@ let project_mapper = project => {
                     <article class="card__article">
                         <h2><a href="${project.link}">${project.title}</a></h2>
         
-                        <p class="paragraph-text-normal">${project.description} ${project.doi ? `<a href="${project.doi}">DOI</a>` : ''}</p>
+                        <p class="paragraph-text-normal">${project.description} ${project.github ? `<a href="${project.github}">GITHUB</a>` : ''}</p>
                     </article>
 
                                 
