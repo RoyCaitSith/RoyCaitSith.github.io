@@ -17,7 +17,7 @@ let render_projects = (slug) => {
             demo: 'https://doi.org/10.1175/MWR-D-21-0333.1',
             technologies: ['GSI', 'WRF', 'Python'],
             description: "A Bias Correction Scheme with the Symmetric Cloud Proxy Variable and Its Influence on Assimilating All-Sky GOES-16 Brightness Temperatures",
-            categories: ['featured', 'All-Sky DA', 'GOES', 'Infrared']
+            categories: ['featured', 'All-Sky', 'GOES', 'Infrared']
         },
         {
             image: 'assets/images/AMT_Aeolus.png',
@@ -26,7 +26,7 @@ let render_projects = (slug) => {
             demo: 'https://doi.org/10.5194/amt-16-2691-2023',
             technologies: ['GSI', 'WRF', 'Python'],
             description: "The impacts of assimilating Aeolus horizontal line-of-sight winds on numerical predictions of Hurricane Ida (2021) and a mesoscale convective system over the Atlantic Ocean",
-            categories: ['featured', 'Aeolus']
+            categories: ['Aeolus']
         },
     ]
 
