@@ -20,7 +20,7 @@ let render_projects = (slug) => {
             categories: ['featured', 'All-Sky DA', 'GOES', 'Infrared']
         },
         {
-            image: 'assets/images/AMT_Aeolus.jpg',
+            image: 'assets/images/AMT_Aeolus.png',
             link: 'https://github.com/RoyCaitSith/Aeolus-L2B-assimilation.git',
             title: 'Assimilation of Aeolus',
             demo: 'https://doi.org/10.5194/amt-16-2691-2023',
