@@ -104,7 +104,8 @@ img {
 }
 
 .head-buttons a {
-  color: inherit;
+  /* color: inherit; */
+  color: #fff;
 }
 
 .head-menu-wrap {
