@@ -11,13 +11,22 @@ let render_projects = (slug) => {
 
     let projects_obj = [
         {
+            image: 'assets/images/Master_Vorticity_Tracking.png',
+            link: 'https://github.com/RoyCaitSith/Vorticity-tracking/blob/main/20180501%E5%86%AF%E5%9F%8E%E7%83%BD%E6%AF%95%E4%B8%9A%E8%AE%BA%E6%96%87%E5%88%9D%E7%A8%BFV2.0.pdf',
+            title: 'Vorticity Tracking',
+            github: 'https://github.com/RoyCaitSith/Vorticity-tracking.git',
+            technologies: ['NCL', 'ERA5'],
+            description: "Interdecadal Change of Tropical Cyclone Activity in the Western North Pacific (Unpublished)",
+            categories: ['tc']
+        },
+        {
             image: 'assets/images/MWR_GOES-R_BC.jpg',
             link: 'https://doi.org/10.1175/MWR-D-21-0333.1',
             title: 'All-Sky BC of GOES-16',
             github: 'https://github.com/RoyCaitSith/GOES-R-bias-correction.git',
             technologies: ['GSI', 'WRF', 'Python'],
             description: "A Bias Correction Scheme with the Symmetric Cloud Proxy Variable and Its Influence on Assimilating All-Sky GOES-16 Brightness Temperatures",
-            categories: ['featured', 'all-sky', 'goes', 'infrared']
+            categories: ['featured', 'all-sky', 'goes']
         },
         {
             image: 'assets/images/AMT_Aeolus.png',
@@ -26,7 +35,7 @@ let render_projects = (slug) => {
             github: 'https://github.com/RoyCaitSith/Aeolus-L2B-assimilation.git',
             technologies: ['GSI', 'WRF', 'Python'],
             description: "The impacts of assimilating Aeolus horizontal line-of-sight winds on numerical predictions of Hurricane Ida (2021) and a mesoscale convective system over the Atlantic Ocean",
-            categories: ['aeolus']
+            categories: ['cpex', 'aeolus']
         },
     ]
 
