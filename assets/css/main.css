@@ -376,6 +376,11 @@ img {
   margin: 0 auto;
 }
 
+.blog-links {
+  font-family: 'PT Sans', Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
 .more-blogs {
   font-size: 16px;
   font-size: 1rem;
