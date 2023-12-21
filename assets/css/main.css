@@ -118,8 +118,8 @@ img {
   display: -ms-grid;
 
   display: grid;
-  -ms-grid-columns: auto auto auto auto;
-      grid-template-columns: auto auto auto auto;
+  -ms-grid-columns: auto;
+      grid-template-columns: auto;
   grid-column-gap: 10px;
   
   margin: 0 auto;
@@ -253,7 +253,6 @@ img {
       -ms-flex-pack: center;
           justify-content: center;
 }
-
 
 .projects-grid {
   display: -ms-grid;
