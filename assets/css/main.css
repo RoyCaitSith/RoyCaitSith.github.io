@@ -120,7 +120,8 @@ img {
   display: grid;
   -ms-grid-columns: auto;
       grid-template-columns: auto;
-  grid-column-gap: 10px;
+  grid-column-gap: 0px;
+  /* grid-column-gap: 10px; */
   
   margin: 0 auto;
 }
