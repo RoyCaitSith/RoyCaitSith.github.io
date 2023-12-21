@@ -359,23 +359,6 @@ img {
   transition: all ease-in-out 0.3s;
 }
 
-.blog-menu-wrap {
-  position: absolute;
-  bottom: 40px;
-  left: 50%;
-  -webkit-transform: translate(-50%, 0);
-          transform: translate(-50%, 0);
-
-  display: -ms-grid;
-
-  display: grid;
-  -ms-grid-columns: auto auto auto auto;
-      grid-template-columns: auto auto auto auto;
-  grid-column-gap: 10px;
-  
-  margin: 0 auto;
-}
-
 .blog-links {
   font-family: 'PT Sans', Arial, Helvetica, sans-serif;
   font-weight: bold;
