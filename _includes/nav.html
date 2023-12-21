@@ -11,7 +11,7 @@
                 <a href="{{ site.blog_url }}/cv/CV_Chengfeng_Feng_20231220.pdf"><i class="head-icon fa-solid fa-file"></i></a>
             </span>
             <span class="hint--bottom bottom-link" aria-label="Email">
-                <a href="mailto:u1237353@umail.utah.edu"><i class="head-icon fa-solid fa-envelope"></i></a>
+                <a onclick="copyToClipboard('ROY.FENG@utah.edu')"><i class="head-icon fa-solid fa-envelope"></i></a>
             </span>
             <span class="hint--bottom bottom-link" aria-label="GitHub">
                 <a href="https://github.com/RoyCaitSith"><i class="head-icon fa-brands fa-github"></i></a>
@@ -31,6 +31,25 @@
             <span class="hint--bottom bottom-link" aria-label="X">
                 <a href="https://twitter.com/roy_caitsith"><i class="head-icon fa-brands fa-x-twitter"></i></a>
             </span>
+            <script>
+                function copyToClipboard(text) {
+                    // Create a temporary input element
+                    var tempInput = document.createElement('input');
+                    tempInput.value = text;
+                    document.body.appendChild(tempInput);
+        
+                    // Select the text in the input element
+                    tempInput.select();
+                    tempInput.setSelectionRange(0, 99999); /*For mobile devices*/
+        
+                    // Copy the text to the clipboard
+                    document.execCommand('copy');
+                    document.body.removeChild(tempInput);
+        
+                    // Show a message or perform any other action
+                    alert('Email copied to clipboard!');
+                }
+            </script>
         </div>
         <div class="head-menu-wrap">
             <a class="semi-transparent-button with-border nav-links" href="#projects">PROJECTS</a>
