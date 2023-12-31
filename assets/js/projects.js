@@ -24,7 +24,7 @@ let render_projects = (slug) => {
             link: 'https://doi.org/10.1175/MWR-D-21-0333.1',
             title: 'All-Sky BC of GOES-16',
             github: 'https://github.com/RoyCaitSith/GOES-R-bias-correction.git',
-            technologies: ['GSI', 'WRF', 'Python'],
+            technologies: ['GSI', 'WRF', 'Python', 'Fortran'],
             description: "A Bias Correction Scheme with the Symmetric Cloud Proxy Variable and Its Influence on Assimilating All-Sky GOES-16 Brightness Temperatures",
             categories: ['featured', 'tc', 'cpex', 'all-sky', 'infrared', 'goes']
         },
@@ -33,7 +33,7 @@ let render_projects = (slug) => {
             link: 'https://doi.org/10.5194/amt-16-2691-2023',
             title: 'Assimilation of Aeolus',
             github: 'https://github.com/RoyCaitSith/Aeolus-L2B-assimilation.git',
-            technologies: ['GSI', 'WRF', 'Python'],
+            technologies: ['GSI', 'WRF', 'Python', 'Fortran'],
             description: "The impacts of assimilating Aeolus horizontal line-of-sight winds on numerical predictions of Hurricane Ida (2021) and a mesoscale convective system over the Atlantic Ocean",
             categories: ['tc', 'cpex', 'aeolus']
         },
