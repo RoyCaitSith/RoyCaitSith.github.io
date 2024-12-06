@@ -29,12 +29,21 @@ let render_projects = (slug) => {
             categories: ['featured', 'tc', 'cpex', 'all-sky', 'infrared', 'goes']
         },
         {
+            image: 'assets/images/MWR_GOES-R_IOEC.png',
+            link: 'https://doi.org/10.1175/MWR-D-24-0038.1',
+            title: 'All-Sky IOEC of GOES-16',
+            github: 'https://github.com/RoyCaitSith/GOES-R-observation-error-covariance.git',
+            technologies: ['GSI', 'NU-WRF', 'Python', 'Fortran'],
+            description: "Cloud-Depednet Features of Interchannel Observation-Error Correlations of All-Sky GOES-16 Brightness Temperatures",
+            categories: ['featured', 'tc', 'all-sky', 'infrared', 'goes']
+        },
+        {
             image: 'assets/images/AMT_Aeolus.png',
             link: 'https://doi.org/10.5194/amt-16-2691-2023',
             title: 'Assimilation of Aeolus',
             github: 'https://github.com/RoyCaitSith/Aeolus-L2B-assimilation.git',
             technologies: ['GSI', 'WRF', 'Python', 'Fortran'],
-            description: "The impacts of assimilating Aeolus horizontal line-of-sight winds on numerical predictions of Hurricane Ida (2021) and a mesoscale convective system over the Atlantic Ocean",
+            description: "The Impacts of Assimilating Aeolus Horizontal Line-of-Sight Winds on Numerical Predictions of Hurricane Ida (2021) and a Mesoscale Convective System over the Atlantic Ocean",
             categories: ['tc', 'cpex', 'aeolus']
         },
     ]
