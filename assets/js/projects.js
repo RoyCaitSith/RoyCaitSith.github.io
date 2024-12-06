@@ -29,7 +29,7 @@ let render_projects = (slug) => {
             categories: ['featured', 'tc', 'cpex', 'all-sky', 'infrared', 'goes']
         },
         {
-            image: 'assets/images/MWR_GOES-R_IOEC.png',
+            image: 'assets/images/MWR_GOES-R_IOEC.jpg',
             link: 'https://doi.org/10.1175/MWR-D-24-0038.1',
             title: 'All-Sky IOEC of GOES-16',
             github: 'https://github.com/RoyCaitSith/GOES-R-observation-error-covariance.git',
