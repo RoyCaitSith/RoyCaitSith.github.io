@@ -11,40 +11,39 @@ let render_projects = (slug) => {
 
     let projects_obj = [
         {
+            image: 'assets/images/PhD_Data_Assimilation.jpg',
+            link: 'https://www.proquest.com/docview/3123919606?accountid=14677&sourcetype=Dissertations%20&%20Theses',
+            title: 'Dissertation',
+            description: "Assimilation of All-Sky GOES-16 Water Vapor Channels, Aeolus Satellite Winds, and Airborne Lidar Observations for Improved Numerical Simulations of Tropical Cyclones and Convections",
+            categories: ['featured', 'satellite', 'lidar', 'tc', 'aew']
+        },
+        {
             image: 'assets/images/Master_Vorticity_Tracking.jpg',
-            link: 'https://github.com/RoyCaitSith/Vorticity-tracking/blob/main/20180501%E5%86%AF%E5%9F%8E%E7%83%BD%E6%AF%95%E4%B8%9A%E8%AE%BA%E6%96%87%E5%88%9D%E7%A8%BFV2.0.pdf',
-            title: 'Vorticity Tracking',
-            github: 'https://github.com/RoyCaitSith/Vorticity-tracking.git',
-            technologies: ['NCL', 'ERA5'],
-            description: "Interdecadal Change of Tropical Cyclone Activity in the Western North Pacific (Unpublished)",
+            link: 'http://59.75.36.213/KCMS/detail/detail.aspx?filename=1018155575.nh&dbcode=CMFD&dbname=CMFD2018',
+            title: 'Thesis',
+            description: "Investigate Interdecadal Change of Tropical Cyclone Activity in the Western North Pacific with a Vorticity Tracking Technique",
             categories: ['featured', 'tc']
         },
         {
             image: 'assets/images/MWR_GOES-R_BC.jpg',
             link: 'https://doi.org/10.1175/MWR-D-21-0333.1',
-            title: 'All-Sky BC of GOES-16',
-            github: 'https://github.com/RoyCaitSith/GOES-R-bias-correction.git',
-            technologies: ['GSI', 'WRF', 'Python', 'Fortran'],
+            title: 'All-Sky GOES-16 BC',
             description: "A Bias Correction Scheme with the Symmetric Cloud Proxy Variable and Its Influence on Assimilating All-Sky GOES-16 Brightness Temperatures",
-            categories: ['featured', 'tc', 'cpex', 'all-sky', 'infrared', 'goes']
+            categories: ['featured', 'satellite', 'tc']
         },
         {
             image: 'assets/images/MWR_GOES-R_IOEC.jpg',
             link: 'https://doi.org/10.1175/MWR-D-24-0038.1',
-            title: 'All-Sky IOEC of GOES-16',
-            github: 'https://github.com/RoyCaitSith/GOES-R-observation-error-covariance.git',
-            technologies: ['GSI', 'NU-WRF', 'Python', 'Fortran'],
+            title: 'All-Sky GOES-16 IOEC',
             description: "Cloud-Depednet Features of Interchannel Observation-Error Correlations of All-Sky GOES-16 Brightness Temperatures",
-            categories: ['featured', 'tc', 'all-sky', 'infrared', 'goes']
+            categories: ['featured', 'satellite', 'tc']
         },
         {
             image: 'assets/images/AMT_Aeolus.png',
             link: 'https://doi.org/10.5194/amt-16-2691-2023',
-            title: 'Assimilation of Aeolus',
-            github: 'https://github.com/RoyCaitSith/Aeolus-L2B-assimilation.git',
-            technologies: ['GSI', 'WRF', 'Python', 'Fortran'],
+            title: 'DA of Aeolus HLOS Winds',
             description: "The Impacts of Assimilating Aeolus Horizontal Line-of-Sight Winds on Numerical Predictions of Hurricane Ida (2021) and a Mesoscale Convective System over the Atlantic Ocean",
-            categories: ['tc', 'cpex', 'aeolus']
+            categories: ['featured', 'satellite', 'lidar', 'tc', 'aew']
         },
     ]
 
