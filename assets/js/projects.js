@@ -1,5 +1,5 @@
 $(document).ready(() => {
-    render_projects('all');
+    render_projects('featured');
 })
 
 
@@ -15,7 +15,7 @@ let render_projects = (slug) => {
             link: 'https://www.proquest.com/docview/3123919606?accountid=14677&sourcetype=Dissertations%20&%20Theses',
             title: 'Dissertation',
             description: "Assimilation of All-Sky GOES-16 Water Vapor Channels, Aeolus Satellite Winds, and Airborne Lidar Observations for Improved Numerical Simulations of Tropical Cyclones and Convections",
-            categories: ['featured', 'satellite', 'lidar', 'tc', 'aew']
+            categories: ['satellite', 'lidar', 'tc', 'aew']
         },
         {
             image: 'assets/images/Master_Vorticity_Tracking.jpg',
