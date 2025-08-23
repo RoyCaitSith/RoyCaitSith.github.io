@@ -22,7 +22,7 @@ let render_projects = (slug) => {
             link: 'http://59.75.36.213/KCMS/detail/detail.aspx?filename=1018155575.nh&dbcode=CMFD&dbname=CMFD2018',
             title: 'Thesis',
             description: "Investigate Interdecadal Change of Tropical Cyclone Activity in the Western North Pacific with a Vorticity Tracking Technique",
-            categories: ['featured', 'tc']
+            categories: ['tc']
         },
         {
             image: 'assets/images/MWR_GOES-R_BC.jpg',
