@@ -45,6 +45,13 @@ let render_projects = (slug) => {
             description: "The Impacts of Assimilating Aeolus Horizontal Line-of-Sight Winds on Numerical Predictions of Hurricane Ida (2021) and a Mesoscale Convective System over the Atlantic Ocean",
             categories: ['featured', 'satellite', 'lidar', 'tc', 'aew']
         },
+        {
+            image: 'assets/images/JTECH_DAWN_HALO.png',
+            link: 'https://doi.org/10.1175/JTECH-D-24-0138.1',
+            title: 'DA of DAWN and HALO',
+            description: "Benefits of Assimilating DAWN and HALO Observations for Numerical Simulations of Tropical Convective Systems Associated with African Easterly Waves during NASA CPEX-AW and CPEX-CV",
+            categories: ['featured', 'lidar', 'aew']
+        },
     ]
 
     let projects = [];
